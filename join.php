@@ -23,7 +23,7 @@
                         $_SESSION['userid']=$id;
                         if(isset($_SESSION['userid'])){
                         ?>      <script>
-                                        location.replace("./main.html");
+                                        location.replace("main.html");
                                 </script>
 <?php
                         }

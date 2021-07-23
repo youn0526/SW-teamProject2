@@ -81,5 +81,6 @@ if ( typeof define === 'function' && define.amd ) {
   // browser global
   window.classie = classie;
 }
+  
+})(window);
 
-})( window );

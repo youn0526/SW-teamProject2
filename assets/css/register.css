@@ -193,3 +193,10 @@ body {
 .signup-btn:hover {
   background-position: right;
 }
+
+@media screen and (max-width: 512px) {
+  .loginForm {
+    width: auto;
+    height: auto;
+  }
+}

@@ -2,11 +2,22 @@
 <html lang="ko">
   <head>
     <meta charset="utf-8">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Single+Day&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./assets/css/bootstrap.css" />
-    <link rel="icon" type="image/x-icon" href="img/account.png" />
+    <link rel="icon" type="image/x-icon" href="./assets/icon/account.ico" />
     <title>회원목록</title>
-    <h2>회원목록</h2>
+    <h2 style="font-family: 'Single Day', cursive">회원목록</h2>
     <style>
+      h2 {
+        margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  color: #5aa1e7;
+  font-size: 2.7rem;
+      }
       body {
         font-family: Consolas, monospace;
         font-family: 12px;
@@ -22,16 +33,19 @@
         padding: 10px;
         border-bottom: 1px solid #dadada;
       }
+      th {
+        font-size: 1.3rem;
+      }
     </style>
   </head>
   <body>
-  <table class="table table-hover table-dark">
+  <table class="table table-hover">
       <thead>
-        <tr>
-          <th scope="col">이름</th>
-          <th scope="col">이메일</th>
-          <th scope="col">아이디</th>
-          <th scope="col">가입날짜</th>
+        <tr class="table-info">
+          <th scope="col" style="font-family: 'Single Day', cursive">이름</th>
+          <th scope="col" style="font-family: 'Single Day', cursive">이메일</th>
+          <th scope="col" style="font-family: 'Single Day', cursive">아이디</th>
+          <th scope="col" style="font-family: 'Single Day', cursive">가입날짜</th>
         </tr>
       </thead>
       <tbody>
