@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>SW 3Team</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="CSS-only Responsive Layout with Smooth Transitions" />
+    <meta
+      name="keywords"
+      content="css3, transitions, animations, css-only, navigation, smooth scrolling, full width, full height, window width, window height"
+    />
+    <meta name="author" content="Codrops" />
+    <link rel="shortcut icon" href="../favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/index/demo.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/index/style.css" />
+    <script type="text/javascript" src="./assets/js/modernizr.custom.79639.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Single+Day&display=swap"
+      rel="stylesheet"
+    />
+    <!--[if lte IE 8]>
+      <link rel="stylesheet" type="text/css" href="css/simple.css" />
+    <![endif]-->
+  </head>
+  <body>
+    <style>
+      #menu-btn {
+        cursor: pointer;
+      }
+    </style>
+    <section>
+      <nav>
+        <div class="menu-btn">
+          <div class="line line--1"></div>
+          <div class="line line--2"></div>
+          <div class="line line--3"></div>
+        </div>
+        >
+
+        <div class="nav-links">
+          <a style="font-family: 'Single Day', cursive" href="main.html" class="link">Home</a>
+          <a style="font-family: 'Single Day', cursive" href="" class="link">About</a>
+          <a
+            style="font-family: 'Single Day', cursive"
+            class="link"
+            id="menu-btn"
+            onclick="window.open('member.php', '_blank', 'width=1100 height=600')"
+            >Profile</a
+          >
+          <a style="font-family: 'Single Day', cursive" href="logout.php" class="link">Log out</a>
+          <a
+          style="font-family: 'Single Day', cursive"
+          class="link"
+          id="menu-btn"
+          onclick="window.open('serveyView.php', '_blank', 'width=1100 height=600')"
+          >Servey</a
+        >
+        </div>
+      </nav>
+    </section>
+
+    <div class="container">
+      <!-- Codrops top bar -->
+      <div class="codrops-top">
+        <span class="right"> </span>
+        <div class="clr"></div>
+      </div>
+      <!--/ Codrops top bar -->
+      <div class="st-container">
+        <input type="radio" name="radio-set" checked="checked" id="st-control-1" />
+        <a href="#st-panel-1">메인</a>
+        <input type="radio" name="radio-set" id="st-control-2" />
+        <a href="#st-panel-2">게시판</a>
+        <input type="radio" name="radio-set" id="st-control-3" />
+        <a href="#st-panel-3">관광지</a>
+        <input type="radio" name="radio-set" id="st-control-4" />
+        <a href="#st-panel-4">특산품</a>
+        <input type="radio" name="radio-set" id="st-control-5" />
+        <a href="#st-panel-5">설문결과</a>
+
+        <div class="st-scroll">
+          <!-- Placeholder text from http://hipsteripsum.me/ -->
+          <section class="st-panel" id="st-panel-1">
+            <div class="st-deco" data-icon="◈"></div>
+            <h2>메인</h2>
+            <p style="font-family: 'Single Day', cursive">
+              Banksy adipisicing eiusmod banh mi sed. Squid stumptown est odd future nisi, commodo
+              mlkshk pop-up adipisicing retro.
+            </p>
+          </section>
+
+          <section class="st-panel st-color" id="st-panel-2">
+            <div class="st-deco" data-icon="◈"></div>
+            <h2>게시판</h2>
+            <p style="font-family: 'Single Day', cursive" >
+              <a href='write.html' class="w2">글쓰기</a><br><br>
+              <a href='list.php' class="w2">전체 글 보기</a>
+              
+            </p>
+          </section>
+
+          <section class="st-panel" id="st-panel-3">
+            <div class="st-deco" data-icon="◈"></div>
+            <h2>관광지</h2>
+            <p style="font-family: 'Single Day', cursive">
+              일단 링크만 <a href="Tour.html">보러가기</a>
+            </p>
+          </section>
+
+          <section class="st-panel st-color" id="st-panel-4">
+            <link rel="stylesheet" type="text/css" href="./assets/css/index/Store.css" />
+            <script type="javascript" src="js/Store.js"></script>
+            <div class="st-deco" data-icon="◈"></div>
+            <div class="container">
+              <div class="box">
+                <img id="img" onclick="window.open('Store.html')" src="./assets/img/Store/andong soju.jpg" />
+                <span style="font-family: 'Single Day', cursive">안동소주</span>
+              </div>
+              <div class="box">
+                <img id="img" onclick="window.open('Store.html')" src="./assets/img/Store/간고등어.jpg" />
+                <span style="font-family: 'Single Day', cursive">간고등어</span>
+              </div>
+              <div class="box">
+                <img id="img" onclick="window.open('Store.html')" src="./assets/img/Store/사과빵.jpg" />
+                <span style="font-family: 'Single Day', cursive">사과빵</span></a>
+              </div>
+              <div class="box">
+                <img id="img" onclick="window.open('Store.html')" src="https://source.unsplash.com/1000x806" />
+                <span style="font-family: 'Single Day', cursive">ㄴㄴ</span>
+              </div>
+            </div>
+          </section>
+
+          <section class="st-panel" id="st-panel-5">
+            <div class="st-deco" data-icon="◈"></div>
+            <h2>DB</h2>
+            <p style="font-family: 'Single Day', cursive">
+              Fixie ad odd future polaroid dreamcatcher, nesciunt carles bicycle rights accusamus
+              mcsweeney's mumblecore nulla irony.
+            </p>
+          </section>
+        </div>
+        <!-- // st-scroll -->
+      </div>
+      <!-- // st-container -->
+    </div>
+  </body>
+  <script type="text/javascript" src="./assets/js/sidemenu.js"></script>
+</html>
